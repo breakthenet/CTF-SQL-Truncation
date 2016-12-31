@@ -1,16 +1,12 @@
 <?php
 
 session_start();
-require "global_func.php";
 if ($_SESSION['loggedin'] == 0)
 {
     header("Location: login.php");
     exit;
 }
 $username = $_SESSION['username'];
-require "header.php";
-$h = new headers;
-$h->startheaders();
 include "mysql.php";
 global $c;
 $is = mysql_query("SELECT * FROM users WHERE username='{$username}'") or die(mysql_error());
