@@ -38,7 +38,8 @@ else
       breakthenet Registration
     </h3>
     <form action="register.php" method="post">
-      Username: <input type="text" name="username" /><br />
+      Username: <input type="text" name="username" maxlength="20" /><br />
+	  <!-- Username max length of 20 enforced at the database level. Not sure if it actually throws an error though, so stop them on frontend. -->
       Password: <input type="password" name="password" /><br />
       <input type="submit" value="Submit" />
     </form><br />
