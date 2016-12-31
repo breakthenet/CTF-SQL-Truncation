@@ -23,7 +23,7 @@ if ($_POST['username'])
     }
     else
     {
-        mysql_query("INSERT INTO users (username, userpass) VALUES( '{$username}', md5('{$_POST['password']}'))");
+        mysql_query("INSERT INTO users (username, password) VALUES( '{$username}', md5('{$_POST['password']}'))");
         print
                 "You have signed up, enjoy the game.<br />
 &gt; <a href='login.php'>Login</a>";
