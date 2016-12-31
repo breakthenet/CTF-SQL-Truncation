@@ -11,9 +11,7 @@ print
 <link href="css/game.css" type="text/css" rel="stylesheet" />
 <title>breakthenet</title>
 </head>
-<body onload="getme();" bgcolor="#C3C3C3">
-<img src="logo.png" alt="Your Game Logo" />
-<br />
+<body bgcolor="#C3C3C3">
 EOF;
 if ($_POST['username'])
 {

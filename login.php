@@ -7,7 +7,6 @@
 <title>breakthenet</title>
 </head>
 <body bgcolor="#C3C3C3">
-<img src="logo.png" alt="Your Game Logo" />
     <h3>
       &gt; breakthenet Log-In
     </h3>
