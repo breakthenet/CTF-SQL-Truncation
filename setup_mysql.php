@@ -1,6 +1,5 @@
 <?php
 session_start();
-require "global_func.php";
 include "mysql.php";
 $is = mysql_query("SELECT * FROM users", $c) or die(set_mysql());
 
@@ -12,7 +11,7 @@ function set_mysql() {
     $e_db_username = addslashes($db_username);
     $e_db_password = addslashes($db_password);
     $e_db_database = addslashes($db_database);
-    
+
     $fo = fopen("dbdata.sql", "r");
     $query = '';
     $lines = explode("\n", fread($fo, 1024768));
