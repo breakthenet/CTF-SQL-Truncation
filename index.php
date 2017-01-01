@@ -25,7 +25,5 @@ else {
 
 print "<br><br><br>
 &gt; <a href='logout.php'>LOGOUT</a>
-LOGOUT BUTTON
-IF admin user, display success code here
 ";
 $h->endpage();
