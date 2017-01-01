@@ -11,7 +11,7 @@ $is = mysql_query("SELECT * FROM users WHERE username='{$username}'") or die(mys
 $ir = mysql_fetch_array($is);
 print "<h1>You have logged on, {$ir['username']}!</h1>
 <h2>Welcome back!</h2>";
-print "<br><br>Your userid is {$ir['id']}:<br><br><br>";
+print "<br><br>Your userid is {$ir['id']}<br><br><br>";
 
 if($ir['id'] == 1) {
     print "<font color='green'>Admin panel ENABLED. Congrats, you beat the test and are logged in as user admin with ID=1.</font>";
