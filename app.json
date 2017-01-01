@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CTF_FLAG": "PUT-FLAG-HERE"
+  },
   "addons": [
     "papertrail",
     "cleardb"

@@ -13,7 +13,7 @@
         <td width="50%">
           <fieldset>
             <legend>About breakthenet</legend>
-            A SQL Truncation challenge test-bed. See if you can login as the "admin" user! Feel free to review the source code as part of the challenge <a href='https://github.com/breakthenet/HackMe-SQL-Truncation'>here</a>.
+            A SQL Truncation challenge test-bed. See if you can login as the "admin" user! Feel free to review the source code as part of the challenge <a href='https://github.com/breakthenet/CTF-SQL-Truncation'>here</a>.
           </fieldset>
         </td>
         <td>
