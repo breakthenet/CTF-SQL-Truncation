@@ -29,7 +29,7 @@ if (mysql_num_rows($uq) == 0)
 {
     die(
             "<h3>breakthenet Error</h3>
-	Invalid username or password!<br />
+	Invalid username!<br />
 	<a href='login.php'>&gt; Back</a>");
 }
 else
@@ -40,7 +40,7 @@ else
     {
         die(
                 "<h3>breakthenet Error</h3>
-		Invalid username or password!<br />
+		Invalid password!<br />
 		<a href='login.php'>&gt; Back</a>");
     }
     session_regenerate_id();
