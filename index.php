@@ -1,18 +1,15 @@
 <?php
-
 session_start();
-if ($_SESSION['loggedin'] == 0)
-{
+$username = $_SESSION['username'];
+if (!$username) {
     header("Location: login.php");
     exit;
 }
-$username = $_SESSION['username'];
+
 include "mysql.php";
-global $c;
 $is = mysql_query("SELECT * FROM users WHERE username='{$username}'") or die(mysql_error());
 $ir = mysql_fetch_array($is);
-print
-        "<h1>You have logged on, {$ir['username']}!</h1>
+print "<h1>You have logged on, {$ir['username']}!</h1>
 <h2>Welcome back!</h2>";
 print "<br><br>Your userid is {$ir['id']}:<br><br><br>";
 
@@ -26,4 +23,3 @@ else {
 print "<br><br><br>
 &gt; <a href='logout.php'>LOGOUT</a>
 ";
-$h->endpage();

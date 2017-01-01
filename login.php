@@ -2,20 +2,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link href="css/game.css" type="text/css" rel="stylesheet" />
-<script src="js/login.js" type="text/javascript" language="JavaScript"></script>
-<title>breakthenet</title>
+<title>BreakTheNet</title>
 </head>
 <body bgcolor="#C3C3C3">
     <h3>
-      &gt; breakthenet Log-In
+      &gt; BreakTheNet Log-In
     </h3>
     <table width="80%">
       <tr>
         <td width="50%">
           <fieldset>
             <legend>About breakthenet</legend>
-            A test environment
+            A SQL Truncation challenge test-bed. See if you can login as the "admin" user!
           </fieldset>
         </td>
         <td>
